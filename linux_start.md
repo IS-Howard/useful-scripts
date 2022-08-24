@@ -1,6 +1,5 @@
 # Linux_initial
 Initial setting, install and useful shell script for debian base linux
-https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
 
 ## package update
 ```Shell
