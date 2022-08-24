@@ -12,7 +12,7 @@ docker image ls
 ```Shell
 docker run -it <image>
 ```
-```Shell-it"``` instructs Docker to allocate a pseudo-TTY connected to the container’s stdin<br />
+```-it``` instructs Docker to allocate a pseudo-TTY connected to the container’s stdin<br />
 "--rm"		Automatically remove the container when it exits<br />
 "-w /path/to/dir/" set working directory<br />
 "-v /path/local:/path/container" mount host dir to container dir<br />
