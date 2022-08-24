@@ -64,5 +64,11 @@ bash ./*.sh
 tar -xvzf *.tgz
 ```
 
+## Useful
+
+* list detail file
+```Shell
+ls -l
+```
 
 
