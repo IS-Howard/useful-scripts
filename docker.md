@@ -13,12 +13,12 @@ docker image ls
 docker run -it <image>
 ```
 ```-it``` instructs Docker to allocate a pseudo-TTY connected to the container’s stdin<br />
-"--rm"		Automatically remove the container when it exits<br />
-"-w /path/to/dir/" set working directory<br />
-"-v /path/local:/path/container" mount host dir to container dir<br />
-"-p 80(host port):80(container port)" bounding ports<br />
-"--name name" gives name to container<br />
-"--gpus all" enable gpu for container<br />
+```--rm```		Automatically remove the container when it exits<br />
+```-w /path/to/dir/``` set working directory<br />
+```-v /path/local:/path/container``` mount host dir to container dir<br />
+```-p 80(host port):80(container port)``` bounding ports<br />
+```--name <name>``` gives name to container<br />
+```--gpus all``` enable gpu for container<br />
 
 * get to bash of container
 ```Shell
