@@ -37,6 +37,9 @@ docker commit <containerId> <newImageId>
 ```Shell
 docker stop <containerId>
 docker rm <containerId>
+
+// remove all
+docker ps -aq | xargs docker stop | xargs docker rm
 ```
 
 * image backup
