@@ -31,7 +31,7 @@ git checkout -- <filename>
 ```
 ```Shell
 //undo last commit
-git reset -- HEAD~1
+git reset --soft HEAD~1
 ```
 
 * branch
