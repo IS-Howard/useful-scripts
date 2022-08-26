@@ -76,7 +76,7 @@ git branch -d <branch>
 git merge <branch>
 
 // update
-git pull
+git pull --rebase
 
 // edit conflict manually
 
