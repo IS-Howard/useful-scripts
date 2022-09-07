@@ -44,8 +44,8 @@ docker ps -aq | xargs docker stop | xargs docker rm
 
 * image backup
 ```Shell
-docker save <image> > <image>.tar
+docker save <image> -o <filename>.tar
 
-docker load  < <image>.tar
+docker load  -i <filename>.tar
 ```
 
