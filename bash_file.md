@@ -27,3 +27,27 @@ echo "Hello World"
 chmod u+x hello_world.sh
 bash hello_world.sh or ./hello_world.sh
 ```
+
+----
+### File Rename Example
+```SHell
+#! /bin/bash
+
+# target be like: (60)雲霄飛車殺人事件(1996年1月8日)
+#IFS=$'\n' files=($(find . -type d -name '(*)*(*)'))
+mapfile -t files < <(find . -type d -name '(*)*(*)')
+for file in "${files[@]}"; do
+  #file=${files[0]} 
+  page=${file%)*(*)}
+  page=${page##*(}
+  name=${file%)*}
+  name=${name##*(}
+  nname="($page) $name"
+  #echo $nname
+  path=${file%/*}
+  npath="$path/$nname"
+  echo $file
+  echo $npath
+  mv "$file" "$npath"
+done
+```
