@@ -84,3 +84,14 @@ git commit
 
 git push
 ```
+
+### EX: Merge git repo into branch of another repo
+```Shell
+// set repo "bar" as branch of repo "foo" name "baz"
+cd foo
+git remote add bar <path_to_bar>
+git remote update
+git switch -c baz  //creat branch name "baz"
+git merge --allow-unrelated-histories bar/somebranch
+```
+
