@@ -49,3 +49,21 @@ docker save <image> -o <filename>.tar
 docker load  -i <filename>.tar
 ```
 
+----
+
+# Docker file
+FROM <base_image>
+MAINTAINER
+RUN
+CMD
+VOLUME
+USER
+WORKDIR <>
+HEALTHCHECH
+ARG
+EXPOSE
+ENV
+ADD
+COPY
+ENTRYPOINT
+
