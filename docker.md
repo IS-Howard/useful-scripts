@@ -52,6 +52,7 @@ docker load  -i <filename>.tar
 ----
 
 # Docker file
+```Shell
 FROM <base_image>
 MAINTAINER
 RUN
@@ -66,4 +67,5 @@ ENV
 ADD
 COPY
 ENTRYPOINT
+```
 
