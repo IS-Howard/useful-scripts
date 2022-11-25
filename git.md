@@ -85,7 +85,7 @@ git commit
 git push
 ```
 
-### EX: Merge git repo into branch of another repo
+### EX 1: Merge git repo into branch of another repo
 ```Shell
 // set repo "bar" as branch of repo "foo" name "baz"
 cd foo
