@@ -19,6 +19,11 @@ docker run -it <image>
 ```-p 80(host port):80(container port)``` bounding ports<br />
 ```--name <name>``` gives name to container<br />
 ```--gpus all``` enable gpu for container<br />
+* start/turnoff exist container
+```Shell
+docker start <container>
+docker stop <container>
+```
 
 * get to bash of container
 ```Shell
