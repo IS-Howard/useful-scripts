@@ -49,6 +49,14 @@ docker save <image> -o <filename>.tar
 docker load  -i <filename>.tar
 ```
 
+* container backup
+```Shell
+// store
+docker export "container" > "filename".tar
+// recover
+docker import - "container" < "filename".tar
+```
+
 ----
 
 # Docker file
