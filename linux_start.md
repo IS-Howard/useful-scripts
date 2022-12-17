@@ -80,14 +80,15 @@ cp -R <source_folder> <destination folder>
 
 https://www.linode.com/docs/guides/modify-file-permissions-with-chmod/
 ```Shell
-//000	0	—
-//001	1	–x
-//010	2	-w-
-//011	3	-wx
-//100	4	r–
-//101	5	r-x
-//110	6	rw-
-//111	7	rwx
+// symbol
+000	0	—
+001	1	–x
+010	2	-w-
+011	3	-wx
+100	4	r–
+101	5	r-x
+110	6	rw-
+111	7	rwx
 
 // rw-rw-rw-
 chmod 666 <file>
